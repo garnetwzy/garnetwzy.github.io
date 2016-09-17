@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>WebViewJavascriptBridge原理分析 | Hexo</title>
+  <title>WebViewJavascriptBridge原理分析 | 个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="问题&amp;gt;a.Native（中的UIWebView）是否可以直接调用js method（方法）？可以。&amp;gt;b.js 是否可以直接调用Native的mthod？不行。
 JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.preventDefault()    log(&amp;apos;JS calling handler &amp;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="WebViewJavascriptBridge原理分析">
 <meta property="og:url" content="http://yoursite.com/2016/09/17/WebViewJavascriptBridge原理分析/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="个人博客">
 <meta property="og:description" content="问题&amp;gt;a.Native（中的UIWebView）是否可以直接调用js method（方法）？可以。&amp;gt;b.js 是否可以直接调用Native的mthod？不行。
 JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.preventDefault()    log(&amp;apos;JS calling handler &amp;">
 <meta property="og:updated_time" content="2016-09-17T14:48:05.000Z">
@@ -19,7 +19,7 @@ JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.pr
 <meta name="twitter:description" content="问题&amp;gt;a.Native（中的UIWebView）是否可以直接调用js method（方法）？可以。&amp;gt;b.js 是否可以直接调用Native的mthod？不行。
 JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.preventDefault()    log(&amp;apos;JS calling handler &amp;">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="个人博客" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -40,7 +40,7 @@ JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.pr
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">个人博客</a>
       </h1>
       
     </div>
@@ -57,7 +57,7 @@ JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.pr
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -107,7 +107,7 @@ JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.pr
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/17/WebViewJavascriptBridge原理分析/" data-id="cit7b6piy00007ps6aj5x0q1k" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/09/17/WebViewJavascriptBridge原理分析/" data-id="cit7barr500009ks6ggteb9um" class="article-share-link">Delen</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/源码分析/">源码分析</a></li></ul>
@@ -128,7 +128,7 @@ JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.pr
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
+    <h3 class="widget-title">Labels</h3>
     <div class="widget">
       <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/源码分析/">源码分析</a></li></ul>
     </div>
@@ -147,7 +147,7 @@ JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.pr
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archieven</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li></ul>
     </div>
@@ -157,7 +157,7 @@ JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.pr
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Recente berichten</h3>
     <div class="widget">
       <ul>
         
@@ -177,7 +177,7 @@ JS端调用OC方法12345678callbackButton.onclick = function(e) &amp;#123;	 e.pr
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2016 John Doe<br>
+      &copy; 2016 garnetwzy<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
