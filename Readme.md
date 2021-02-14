@@ -3,7 +3,7 @@ Author: [Zhenyu Wang](https://garnetwzy.github.io/)
 
 Class Link: TBD
 
-[Video demonstration]()
+[Video demonstration](https://drive.google.com/file/d/1HMRjn9AeBv9dm7AregoUbXeZriv4mfLJ/view?usp=sharing)
 
 ## Objectives
 - Learn about HTML/CSS/JS/Bootstrap,
