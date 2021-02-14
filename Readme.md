@@ -1,7 +1,7 @@
 # Zhenyu's Website
 Author: [Zhenyu Wang](https://garnetwzy.github.io/)
 
-Class Link: TBD
+Class Link: https://johnguerra.co/classes/webDevelopment_spring_2021/
 
 [Video demonstration](https://drive.google.com/file/d/1HMRjn9AeBv9dm7AregoUbXeZriv4mfLJ/view?usp=sharing)
 
