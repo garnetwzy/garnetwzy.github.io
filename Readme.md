@@ -6,7 +6,7 @@ Class Link: TBD
 [Video demonstration](https://drive.google.com/file/d/1HMRjn9AeBv9dm7AregoUbXeZriv4mfLJ/view?usp=sharing)
 
 ## Objectives
-- Learn about HTML/CSS/JS/Bootstrap,
+- Learn about HTML/CSS/JS/Bootstrap
 - Learn to use eslint, prettier and related web development tools.
 - Create my own web page.
 
@@ -26,6 +26,11 @@ Class Link: TBD
 - CSS
 - Bootstrap
 - JavaScript
+- Eslint
+- Prettier
 
 ## How to use
 Clone the code to your local computer, and then you can open the index.html to see the homepage locally.
+
+## Slides
+https://docs.google.com/presentation/d/1msGgla3RmVhh2wyCIKUR55_-2AH3UtNKYL70wIHlHTE/edit?usp=sharing
