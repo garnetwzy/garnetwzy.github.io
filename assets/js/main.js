@@ -1,9 +1,3 @@
-/**
- * Template Name: Personal - v4.0.1
- * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 (function () {
   "use strict";
 
@@ -37,7 +31,7 @@
   /**
    * Scrolls to an element with header offset
    */
-  const scrollto = (el) => {
+  const scrollto = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -47,7 +41,7 @@
   /**
    * Mobile nav toggle
    */
-  on("click", ".mobile-nav-toggle", function (e) {
+  on("click", ".mobile-nav-toggle", function () {
     select("#navbar").classList.toggle("navbar-mobile");
     this.classList.toggle("bi-list");
     this.classList.toggle("bi-x");
@@ -146,10 +140,11 @@
    */
   let skilsContent = select(".skills-content");
   if (skilsContent) {
+    // eslint-disable-next-line no-undef
     new Waypoint({
       element: skilsContent,
       offset: "80%",
-      handler: function (direction) {
+      handler: function () {
         let progress = select(".progress .progress-bar", true);
         progress.forEach((el) => {
           el.style.width = el.getAttribute("aria-valuenow") + "%";
@@ -161,6 +156,7 @@
   /**
    * Testimonials slider
    */
+  // eslint-disable-next-line no-undef
   new Swiper(".testimonials-slider", {
     speed: 600,
     loop: true,
@@ -193,6 +189,7 @@
   window.addEventListener("load", () => {
     let portfolioContainer = select(".portfolio-container");
     if (portfolioContainer) {
+      // eslint-disable-next-line no-undef
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: ".portfolio-item",
         layoutMode: "fitRows",
@@ -222,6 +219,7 @@
   /**
    * Initiate portfolio lightbox
    */
+  // eslint-disable-next-line no-undef, no-unused-vars
   const portfolioLightbox = GLightbox({
     selector: ".portfolio-lightbox",
   });
@@ -229,6 +227,7 @@
   /**
    * Initiate portfolio details lightbox
    */
+  // eslint-disable-next-line no-undef, no-unused-vars
   const portfolioDetailsLightbox = GLightbox({
     selector: ".portfolio-details-lightbox",
     width: "90%",
@@ -238,6 +237,7 @@
   /**
    * Portfolio details slider
    */
+  // eslint-disable-next-line no-undef
   new Swiper(".portfolio-details-slider", {
     speed: 400,
     loop: true,
