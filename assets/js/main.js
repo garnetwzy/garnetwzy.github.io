@@ -1,3 +1,4 @@
+// I'm trying to find your original JS functionality, but looks like the code below are all from the template :P
 (function () {
   "use strict";
 
