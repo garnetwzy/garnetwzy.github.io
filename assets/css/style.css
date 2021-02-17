@@ -57,7 +57,7 @@ h1:hover {
   background-color: gray;
 }
 
-img:hover {
+#head-picture:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
